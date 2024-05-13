@@ -9,8 +9,8 @@ function input(msg)
 
 function exit()
 {
-   console.log("Invalid operator!")
-   process.exit(1)
+    console.log("Invalid operator!")
+    process.exit(1)
 }
 
 function main()
@@ -30,7 +30,7 @@ function main()
 
     switch (operator) 
     {
-        case '+':
+	case '+':
 	    result = num1 + num2
 	    break
 	case '-':
